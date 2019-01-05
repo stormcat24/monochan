@@ -1,0 +1,5 @@
+load("@bazel_gazelle//:def.bzl", "gazelle")
+
+# gazelle:exclude vendor
+# gazelle:prefix github.com/stormcat24/monochan
+gazelle(name = "gazelle")
